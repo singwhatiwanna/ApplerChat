@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CSocketDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CSocketDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\AVDlg.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ChatSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientCliSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientListenSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientSvrSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\CServerSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\CSocketDemo.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\CSocketDemoDlg.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\HyperLink.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\IncomingDlg.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ListenSocket.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\lxDialog.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\RTCEvents.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\SendFileDlg.cpp"
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\SMButton.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE9.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/CSocketDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Appler.pdb" /debug /machine:I386 /out:"Debug/Appler.exe" /pdbtype:sept 
+".\Debug\AVDlg.obj"
+".\Debug\ChatSocket.obj"
+".\Debug\ClientCliSocket.obj"
+".\Debug\ClientListenSocket.obj"
+".\Debug\ClientSocket.obj"
+".\Debug\ClientSvrSocket.obj"
+".\Debug\CServerSocket.obj"
+".\Debug\CSocketDemo.obj"
+".\Debug\CSocketDemoDlg.obj"
+".\Debug\HyperLink.obj"
+".\Debug\IncomingDlg.obj"
+".\Debug\ListenSocket.obj"
+".\Debug\lxDialog.obj"
+".\Debug\RTCEvents.obj"
+".\Debug\SendFileDlg.obj"
+".\Debug\SMButton.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CSocketDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEA.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AVDlg.cpp
+ChatSocket.cpp
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ChatSocket.cpp(66) : warning C4101: 'addrFrom' : unreferenced local variable
+ClientCliSocket.cpp
+ClientListenSocket.cpp
+ClientSocket.cpp
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientSocket.cpp(163) : warning C4018: '==' : signed/unsigned mismatch
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientSocket.cpp(188) : warning C4101: 'addrFrom' : unreferenced local variable
+ClientSvrSocket.cpp
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\ClientSvrSocket.cpp(115) : warning C4018: '==' : signed/unsigned mismatch
+CServerSocket.cpp
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\CServerSocket.cpp(114) : warning C4101: 'addrFrom' : unreferenced local variable
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\CServerSocket.cpp(299) : warning C4101: 'pos1' : unreferenced local variable
+CSocketDemo.cpp
+CSocketDemoDlg.cpp
+HyperLink.cpp
+IncomingDlg.cpp
+ListenSocket.cpp
+lxDialog.cpp
+RTCEvents.cpp
+SendFileDlg.cpp
+SMButton.cpp
+Generating Code...
+G:\任玉刚的文件夹\MyProjects\NetPro\CSocketDemo\CSocketDemoDlg.cpp(812) : warning C4700: local variable 'ret' used without having been initialized
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /o"Debug/CSocketDemo.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AVDlg.sbr"
+".\Debug\ChatSocket.sbr"
+".\Debug\ClientCliSocket.sbr"
+".\Debug\ClientListenSocket.sbr"
+".\Debug\ClientSocket.sbr"
+".\Debug\ClientSvrSocket.sbr"
+".\Debug\CServerSocket.sbr"
+".\Debug\CSocketDemo.sbr"
+".\Debug\CSocketDemoDlg.sbr"
+".\Debug\HyperLink.sbr"
+".\Debug\IncomingDlg.sbr"
+".\Debug\ListenSocket.sbr"
+".\Debug\lxDialog.sbr"
+".\Debug\RTCEvents.sbr"
+".\Debug\SendFileDlg.sbr"
+".\Debug\SMButton.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEC.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Appler.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
